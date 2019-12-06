@@ -1,0 +1,99 @@
+/**************************tag selectors***************************************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  position: absolute;
+  left: 585px;
+  top: 164px;
+  font-family: 'Philosopher', sans-serif;
+}
+.courses {
+  position: absolute;
+  bottom: 0px;
+  right: 270px;
+  font-size: 16px;
+}
+
+h1 {
+  position: absolute;
+  left: 540px;
+  top: 40px;
+  font-family: 'Montez', cursive;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  left: 600px;
+  bottom: 160px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/**************************class selectors***************************************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  height: 500px;
+}
+
+.middle-container {
+  background-color: #e9ea77;
+  position: relative;
+  height: 550px;
+}
+
+.bottom-container {
+  background-color: #0c9463;
+  height: 100px;
+}
+
+.my-logo {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 55px;
+  height: 55px;
+}
+
+.cloud-top {
+  top: 80px;
+  position: absolute;
+  left: 150px;
+  width: 270px;
+  height: 155px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  right: 150px;
+  top: 200px;
+  width: 270px;
+  height: 155px;
+}
+
+.mountin {
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+  width: 900px;
+  height: 300px;
+}
+.intrudaction {
+  position: absolute;
+  left: 303px;
+}
+.my-profile {
+  position: absolute;
+  top: 30px;
+  left: 580px;
+  height: 150px;
+  width: 120px;
+}
