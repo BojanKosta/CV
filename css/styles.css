@@ -16,30 +16,27 @@ h2 {
   font-family: 'Philosopher', sans-serif;
   font-size: 2.5rem;
   color: #66bfbf;
-font-weight: normal;
+  font-weight: normal;
 }
 
 h3 {
+  margin: auto;
   font-family: 'Philosopher', sans-serif;
-
 }
 
 /**************************class selectors***************************************/
 .top-container {
   background-color: #e4f9f5;
   position: relative;
-  height: 500px;
+  padding-top: 100px;
 }
 
 .middle-container {
   background-color: #e9ea77;
-  position: relative;
-  height: 550px;
 }
 
 .bottom-container {
   background-color: #0c9463;
-  height: 100px;
 }
 
 .my-logo {
@@ -51,8 +48,8 @@ h3 {
 }
 
 .cloud-top {
-  top: 80px;
   position: absolute;
+  top: 80px;
   left: 150px;
   width: 270px;
   height: 155px;
@@ -67,18 +64,25 @@ h3 {
 }
 
 .mountin {
-  position: absolute;
-  right: 150px;
-  bottom: 0px;
+  margin: auto;
   width: 900px;
   height: 300px;
 }
+
 .intrudaction {
-
+  margin: auto;
+  width: 50%;
+  line-height: 2;
+  text-align: left;
 }
+
 .courses {
-
+  padding: 20px;
+  margin: auto;
+  width: 50%;
+  text-align: left;
 }
-.my-profile {
 
+.my-profile {
+  margin: auto;
 }
