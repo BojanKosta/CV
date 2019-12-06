@@ -19,10 +19,7 @@ h2 {
   font-weight: normal;
 }
 
-h3 {
-  margin: auto;
-  font-family: 'Philosopher', sans-serif;
-}
+
 
 /**************************class selectors***************************************/
 .top-container {
@@ -30,15 +27,14 @@ h3 {
   position: relative;
   padding-top: 100px;
 }
-
 .middle-container {
   background-color: #e9ea77;
 }
-
 .bottom-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
   background-color: #0c9463;
 }
-
 .my-logo {
   position: absolute;
   top: 3%;
@@ -64,25 +60,125 @@ h3 {
 }
 
 .mountin {
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 65%;
   height: 30%;
 }
 
 .intrudaction {
+  padding-top: 13%;
+  position: absolute;
+  display: inline-block;
   margin: auto;
   width: 50%;
   line-height: 2;
-  text-align: left;
+  left: 25%;
 }
 
 .courses {
-  padding: 20px;
+  padding: 30px;
   margin: auto;
   width: 50%;
   text-align: left;
 }
 
 .my-profile {
+  position: absolute;
+  display: inline-block;
+  padding-top: 12%;
+  left: 27%;
+  width: 10%;
+  height: 20%;
+}
+.hi{
+  position: absolute;
+  display: inline-block;
+  padding-top: 6%;
+  left: 32%;
   margin: auto;
+  width: 10%;
+  height: 20%;
+}
+.mail {
+  margin: 10px auto 10px auto;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #45b29a;
+  color: #1b7f69;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 6px 4px 6px;
+  text-transform: uppercase;
+}
+.mail:hover {
+  background-color: #004445;
+  color: white;
+}
+.button-twitter{
+  font-size: 1rem;
+  text-align: center;
+  background-color: lightblue;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #1b7f69;
+  padding: 4px 6px 4px 4px;
+}
+.button-twitter:hover {
+  background-color: #004445;
+  color: white;
+}
+.button-facebook{
+  font-size: 1rem;
+  text-align: center;
+  background-color: lightblue;
+  color: #1b7f69;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 6px 4px 4px;
+}
+.button-facebook:hover {
+  background-color: #004445;
+  color: white;
+}
+
+.button-instagram{
+  font-size: 1rem;
+  text-align: center;
+  background-color: lightblue;
+  color: #1b7f69;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 6px 4px 4px;
+}
+.button-instagram:hover {
+  background-color: #004445;
+  color: white;
+}
+.name{
+  text-decoration: underline;
+}
+.link{
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #45b29a;
+  color: #1b7f69;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 6px 4px 6px;
+}
+.about {
+  position: absolute;
+  display: inline-block;
+  padding-top: 0;
+  left: 43%;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+.courseTitle {
+  margin: auto;
+  padding-top: 28%;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
 }
