@@ -5,36 +5,23 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-p {
-  position: absolute;
-  left: 585px;
-  top: 164px;
-  font-family: 'Philosopher', sans-serif;
-}
-.courses {
-  position: absolute;
-  bottom: 0px;
-  right: 270px;
-  font-size: 16px;
-}
-
 h1 {
-  position: absolute;
-  left: 540px;
-  top: 40px;
+  margin: 50px auto 0 auto;
   font-family: 'Montez', cursive;
-  font-size: 4em;
+  font-size: 5rem;
+  color: #66bfbf;
 }
 
 h2 {
   font-family: 'Philosopher', sans-serif;
-  position: absolute;
-  left: 600px;
-  bottom: 160px;
+  font-size: 2.5rem;
+  color: #66bfbf;
+font-weight: normal;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Philosopher', sans-serif;
+
 }
 
 /**************************class selectors***************************************/
@@ -87,13 +74,11 @@ h3 {
   height: 300px;
 }
 .intrudaction {
-  position: absolute;
-  left: 303px;
+
+}
+.courses {
+
 }
 .my-profile {
-  position: absolute;
-  top: 30px;
-  left: 580px;
-  height: 150px;
-  width: 120px;
+
 }
