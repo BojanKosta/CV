@@ -78,7 +78,7 @@ h2 {
 }
 
 .courses {
-  padding-top: 40%;
+  padding-top: 42%;
   margin: auto;
   width: 50%;
   text-align: left;
@@ -180,7 +180,7 @@ h2 {
 .courseTitle {
   position: absolute;
   display: inline-block;
-  top: 35%;
+  top: 34%;
   left: 45%;
   font-family: 'Philosopher', sans-serif;
   font-size: 2.5rem;
