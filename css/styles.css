@@ -30,7 +30,7 @@ h2 {
 .middle-container {
   position: relative;
   background-color: #e9ea77;
-  height: 55%;
+  height: 50%;
 }
 .bottom-container {
   padding-top: 3%;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .intrudaction {
-  padding-top: 13%;
+  padding-top: 14%;
   position: absolute;
   display: inline-block;
   margin: auto;
