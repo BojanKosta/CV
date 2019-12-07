@@ -30,7 +30,8 @@ h2 {
 .middle-container {
   position: relative;
   background-color: #e9ea77;
-  height: 50%;
+  padding-top: 100px;
+
 }
 .bottom-container {
   padding-top: 3%;
@@ -68,36 +69,31 @@ h2 {
 }
 
 .intrudaction {
-  position: absolute;
-  padding-top: 15%;
-  display: inline-block;
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 50%;
+  height: 50%;
   line-height: 2;
-  left: 25%;
+
 }
 
 .courses {
-  padding-top: 42%;
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 50%;
+  height: 30%;
   text-align: left;
 }
 
 .my-profile {
   position: absolute;
   display: inline-block;
-  padding-top: 10%;
+  padding-top: 4.5%;
   left: 29%;
   width: 7%;
   height: 10%;
 }
 .hi{
-  position: absolute;
-  display: inline-block;
-  padding-top: 4%;
-  left: 32%;
-  margin: auto;
+
+  margin: 0 25% 0 auto;
   width: 8%;
   height: 10%;
 }
@@ -169,19 +165,13 @@ h2 {
   padding: 4px 6px 4px 6px;
 }
 .about {
-  position: absolute;
-  display: inline-block;
-  padding-top: 0;
-  left: 43%;
+
   font-family: 'Philosopher', sans-serif;
   font-size: 2.5rem;
   color: #66bfbf;
 }
 .courseTitle {
-  position: absolute;
-  display: inline-block;
-  top: 34%;
-  left: 45%;
+
   font-family: 'Philosopher', sans-serif;
   font-size: 2.5rem;
   color: #66bfbf;
