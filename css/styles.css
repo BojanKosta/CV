@@ -87,7 +87,7 @@ h2 {
   position: absolute;
   margin: 0;
   left: 27%;
-  top: 27%;
+  top: 20%;
   width: 8%;
   height: 10%;
 }
@@ -96,7 +96,7 @@ h2 {
   position: absolute;
   margin: 0;
   left: 33%;
-  top: 17%;
+  top: 11%;
   width: 8%;
   height: 10%;
 }
@@ -172,6 +172,7 @@ h2 {
   color: white;
 }
 .about {
+  margin: 0 auto 0 auto;
 
   font-family: 'Philosopher', sans-serif;
   font-size: 2.5rem;
