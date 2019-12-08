@@ -30,7 +30,7 @@ h2 {
 .middle-container {
   position: relative;
   background-color: #e9ea77;
-  padding-top: 30px;
+  padding-top: 2%;
 
 }
 .bottom-container {
@@ -55,6 +55,7 @@ h2 {
 }
 
 .cloud-bottom {
+
   position: absolute;
   right: 5%;
   top: 50%;
@@ -70,10 +71,6 @@ h2 {
 
 .intrudaction {
   margin: 10% auto 0 auto;
-  width: 50%;
-  height: 50%;
-  line-height: 2;
-
 }
 
 .courses {
@@ -85,7 +82,6 @@ h2 {
 
 .my-profile {
   position: absolute;
-  margin: 0;
   left: 27%;
   top: 20%;
   width: 8%;
@@ -94,7 +90,6 @@ h2 {
 .hi{
 
   position: absolute;
-  margin: 0;
   left: 33%;
   top: 11%;
   width: 8%;
