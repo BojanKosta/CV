@@ -18,8 +18,21 @@ h2 {
   color: #66bfbf;
   font-weight: normal;
 }
+
 footer {
   font-size: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: #eaf6f6;
+  margin: 20px auto;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 20px auto 30px auto;
 }
 
 /**************************class selectors***************************************/
@@ -32,7 +45,8 @@ footer {
 .middle-container {
   position: relative;
   background-color: #e9ea77;
-  padding-top: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .bottom-container {
@@ -69,7 +83,6 @@ footer {
   padding: 0;
   margin: 0 auto -10px auto;
   width: 65%;
-  height: 30%;
 }
 
 .intrudaction {
@@ -77,11 +90,15 @@ footer {
   margin-top: 0;
   text-align: left;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 .course-title {
   letter-spacing: 1px;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 .my-profile {
@@ -103,7 +120,6 @@ footer {
 .courses {
   margin: 0 auto 0 auto;
   width: 50%;
-  height: 30%;
   text-align: left;
 }
 
@@ -111,6 +127,7 @@ footer {
   margin: 10px auto 10px auto;
   text-decoration: none;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
   background-color: #45b29a;
   color: #1b7f69;
   text-align: center;
@@ -126,12 +143,14 @@ footer {
 
 .button-twitter {
   font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: lightblue;
   text-decoration: none;
   border-radius: 8px;
   color: #1b7f69;
   padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
 }
 
 .button-twitter:hover {
@@ -141,12 +160,14 @@ footer {
 
 .button-facebook {
   font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: lightblue;
   color: #1b7f69;
   text-decoration: none;
   border-radius: 8px;
   padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
 }
 
 .button-facebook:hover {
@@ -156,12 +177,14 @@ footer {
 
 .button-instagram {
   font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: lightblue;
   color: #1b7f69;
   text-decoration: none;
   border-radius: 8px;
   padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
 }
 
 .button-instagram:hover {
@@ -176,6 +199,7 @@ footer {
 .link {
   text-decoration: none;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
   background-color: #45b29a;
   color: #1b7f69;
   text-align: center;
