@@ -1,0 +1,243 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #357376;
+}
+
+/* navbar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif
+}
+
+.my-logo {
+  width: 5%;
+  padding: 0 0 0 0;
+}
+
+#middle {
+  text-align: center;
+  background-color: #1d4d4f;
+}
+
+h1 {
+  padding-top: 5%;
+  font-family: 'Montez', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  color: #e5dfdf;
+}
+
+h2 {
+  padding-bottom: 5%;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5rem;
+  color: #e5dfdf;
+  font-weight: normal;
+}
+
+.cloud1 {
+  width: 12%;
+  position: absolute;
+  right: 38%;
+
+}
+
+.cloud2 {
+  width: 12%;
+  position: absolute;
+  right: 45%;
+  padding-top: 3%;
+}
+
+.cloud3 {
+  width: 12%;
+  position: absolute;
+  right: 50%;
+  padding-top: 10%;
+}
+
+.cloud4 {
+  width: 12%;
+  position: absolute;
+  right: 52%;
+}
+
+.cloud5 {
+  width: 12%;
+  position: absolute;
+  right: 40%;
+  padding-top: 9%;
+}
+
+img {
+  width: 25%;
+  padding: 5%;
+}
+
+#about-me {
+  text-align: center;
+  background-color: #357376;
+}
+
+.profile{
+  border-radius: 100%;
+  width: 10%;
+  padding: 0 0 0 0;
+}
+h3 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2.5rem;
+  color: #e5dfdf;
+}
+
+.intrudaction {
+  padding: 3% 20%;
+  font-size: 1.2rem;
+  color: #ffd369;
+  margin: 0 0 0 0;
+}
+
+#courses {
+
+  background-color: #1d4d4f;
+}
+.course {
+
+  margin: 0 20% 0 20%;
+  padding-bottom: 3%;
+}
+.course-title {
+  color: #ffd369;
+}
+td {
+  padding: 0 2% 0 2%;
+}
+.link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #45b29a;
+  color: #1b7f69;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 6px 4px 6px;
+}
+
+.link:hover {
+  background-color: #004445;
+  color: white;
+}
+
+
+#skills {
+  background-color: #357376;
+  text-align: center;
+}
+.logos {
+  width: 10%;
+  padding: 0 0 5% 0;
+}
+
+
+
+
+
+
+
+
+#contacts {
+  text-align: center;
+  background-color: #1d4d4f;
+}
+.cont {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.mail {
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #45b29a;
+  color: #1b7f69;
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 6px 4px 6px;
+  text-transform: uppercase;
+}
+
+.mail:hover {
+  background-color: #004445;
+  color: white;
+}
+
+.button-twitter {
+  font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #1b7f69;
+  padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
+}
+
+.button-twitter:hover {
+  background-color: #004445;
+  color: white;
+}
+
+.button-facebook {
+  font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  color: #1b7f69;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
+}
+
+.button-facebook:hover {
+  background-color: #004445;
+  color: white;
+}
+
+.button-instagram {
+  font-size: .7rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: lightblue;
+  color: #1b7f69;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 6px 4px 4px;
+  margin: 10px 20px 10px 20px;
+}
+
+.button-instagram:hover {
+  background-color: #004445;
+  color: white;
+}
+footer {
+  color: #e5dfdf;
+}
