@@ -4,43 +4,102 @@
 <head>
   <meta charset="utf-8">
   <title>Bojan Todorovic - a web developer</title>
-  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- My site icon -->
   <link rel="icon" href="images/icon.png">
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- JQuery JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Asul|Montez|Philosopher&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
-  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Awesome icons -->
+  <script src="https://kit.fontawesome.com/3cc9cd3e65.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="my-logo" src="images/myLogo.png" alt="my logo">
-    <img class="cloud-top" src="images/cloud.png" alt="my photo">
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <img class="my-logo" src="images/myLogo.png" alt="my logo">
+
+        <a class="navbar-brand" href="#middle">BojanKosta</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Middle section -->
+
+  <section id="middle">
     <h1>I'm Bojan.</h1>
     <h2>a web developer.</h2>
-    <img class="cloud-bottom" src="images/cloud.png" alt="my photo">
-    <img class="mountin" src="images/mountin3.png" alt="mountin">
-  </div>
+    <img class="cloud1" src="images/cloud.png" alt="">
+    <img class="cloud2" src="images/cloud.png" alt="">
+    <img class="cloud3" src="images/cloud.png" alt="">
+    <img class="cloud4" src="images/cloud.png" alt="">
+    <img class="cloud5" src="images/cloud.png" alt="">
 
-  <div class="middle-container">
-    <p class="about"><strong>About Me<strong></p>
-    <img class="hi" src="images/cloudHi.png" alt="hi">
 
-    <div class="center">
-      <img class="my-profile" src="images/myLogo.png" alt="my picture">
+    <img src="images/img.png" alt="">
 
-      <p class="intrudaction">
-        Forces of BiH and currently work there.<br>
-        But I have a passion for <strong>web developer</strong>.<br>
-        So I started learning about web development two years ago by udemy courses.<br>
-        Now I'm looking for a job in that field and I'm still learning new things and going to different courses.
-      </p><br>
-    </div>
+  </section>
 
-    <hr>
 
-    <p class="courseTitle"><strong>Courses</strong></p><br>
 
-    <table class="courses">
+  <section id="about-me">
+    <h3>About Me</h3>
+    <img class="profile" src="images/ProfilePhoto.png" alt="My profile picture">
+    <p class="intrudaction">
+      Hi. I am soldier in the Armed Forces of BiH and currently work there.
+      But I have a passion for <strong>web development</strong>.
+      So I started learning about web development two years ago by udemy courses.
+      Now I'm looking for a job in that field and I'm still learning new things and going to different courses.
+    </p>
+
+  </section>
+
+  <section id="courses">
+
+    <h3>Courses</h3>
+
+    <table class="course">
       <tr>
         <td>
           <p class="course-title">Java Programming Masterclass – Eclipse and IntelliJ IDEA</p>
@@ -88,16 +147,32 @@
         </td>
       </tr>
     </table>
-  </div>
+    <br>
+  </section>
 
-  <div class="bottom-container">
+  <section id="skills">
 
+    <h3>My Skills</h3>
+
+    <img class="logos" src="images/mySql.png" alt="">
+    <img class="logos" src="images/js.png" alt="">
+    <img class="logos" src="images/java.png" alt="">
+    <img class="logos" src="images/spring.png" alt="">
+    <img class="logos" src="images/hibernate.png" alt="">
+
+  </section>
+
+
+  <section id="contacts">
+
+    <h3 class="cont">Contacts</h3>
     <a class="mail" href="mailto:bojankosta1989@gmail.com"><i class="ion-android-mail"></i> message me</a><br><br>
     <a class="button-facebook" href="https://www.facebook.com/bojan.todorovic.560">facebook</a>
     <a class="button-instagram" href="https://www.instagram.com/bojankosta_089/?hl=sr">instagram</a>
     <a class="button-twitter" href="https://twitter.com/bojankosta">twitter</a><br><br>
     <footer>© 2019 <span class="name">Bojan Todorovic</span>. All rights reserved.</footer>
-  </div>
+  </section>
+
 </body>
 
 </html>
