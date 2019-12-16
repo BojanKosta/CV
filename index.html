@@ -34,7 +34,7 @@
     <div class="container-fluid">
 
       <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
+      <nav id="navbar" class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
 
         <img class="my-logo" src="images/myLogo.png" alt="my logo">
 
@@ -79,8 +79,6 @@
     <img src="images/img.png" alt="">
 
   </section>
-
-
 
   <section id="about-me">
     <h3>About Me</h3>
@@ -229,6 +227,19 @@
     <a class="button-twitter" href="https://twitter.com/bojankosta">twitter</a><br><br>
     <footer>© 2019 <span class="name">Bojan Todorovic</span>. All rights reserved.</footer>
   </section>
+
+  <script type="text/javascript">
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
 
 </body>
 
