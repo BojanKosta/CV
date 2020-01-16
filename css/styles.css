@@ -10,7 +10,7 @@ body {
 .navbar{
   padding-top: 0;
   padding-bottom: 0;
-  transition: top 0.3s
+  transition: top 0.3s;
 }
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
