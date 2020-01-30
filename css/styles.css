@@ -126,6 +126,11 @@ td {
   text-align: center;
 }
 
+.appDescripton {
+  color: #e5dfdf;
+  font-size: 1.3rem;
+}
+
 .logos {
   width: 10%;
   padding: 0 0 5% 0;
