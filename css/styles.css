@@ -21,6 +21,7 @@ body {
   padding-bottom: 0;
 }
 
+
 .nav-item {
   padding: 0 1rem;
 }
@@ -144,10 +145,11 @@ td {
 em {
   font-size: 1.2rem;
   padding-left: 2%;
-  color: #ffd369;
+  color:  #fff;
   font-family: 'Ubuntu', sans-serif;
   font-style: normal;
 }
+
 
 .carousel-item {
   padding: 7% 10%;
@@ -186,13 +188,9 @@ em {
 }
 
 .button-twitter {
-  font-size: .7rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
   text-align: center;
-  background-color: lightblue;
-  text-decoration: none;
   border-radius: 8px;
-  color: #1b7f69;
   padding: 4px 6px 4px 4px;
   margin: 10px 20px 10px 20px;
 }
@@ -203,11 +201,8 @@ em {
 }
 
 .button-facebook {
-  font-size: .7rem;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
-  background-color: lightblue;
-  color: #1b7f69;
+  font-size: 1.5em;
   text-decoration: none;
   border-radius: 8px;
   padding: 4px 6px 4px 4px;
@@ -220,16 +215,15 @@ em {
 }
 
 .button-instagram {
-  font-size: .7rem;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
   text-align: center;
-  background-color: lightblue;
-  color: #1b7f69;
   text-decoration: none;
   border-radius: 8px;
   padding: 4px 6px 4px 4px;
   margin: 10px 20px 10px 20px;
+  color: #f57170;
 }
+
 
 .button-instagram:hover {
   background-color: #004445;
